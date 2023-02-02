@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Filter&lt;ObjectType&gt;">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filter\Filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterWithCriterion&lt;ObjectType, ValueType&gt;">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAgEAAAAAAAAAAAAAAAAAAgABAAAAAA=</HashCode>
+      <FileName>Filter\FilterWithCriterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterValueCheck&lt;ObjectType, ValueType&gt;">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Filter\FilterValueCheck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterInterval&lt;ObjectType, ValueType&gt;">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>FilterInterval.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterType" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAffiliation" Collapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterEduCount" Collapsed="true">
+    <Position X="13.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Filters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterEduPortion" Collapsed="true">
+    <Position X="8" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Filters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAgePortion" Collapsed="true">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAgeGroupPortion" Collapsed="true">
+    <Position X="15" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAgeGroupCount" Collapsed="true">
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeFilter&lt;ObjectType&gt;">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="filterAND&lt;ObjectType&gt;">
+    <Position X="13.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ANDfilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataCenter">
+    <Position X="21.75" Y="2.5" Width="3.5" />
+    <NestedTypes>
+      <Typedef Name="DataCenter::table" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataCenter.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>SAAACAAAIAEgAAABAAAAAAAECBQggAAEAzAAgAAAgAA=</HashCode>
+      <FileName>DataCenter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataLoader">
+    <Position X="25.75" Y="3.25" Width="4.25" />
+    <NestedTypes>
+      <Typedef Name="DataLoader::table" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataLoader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAAAAIAAAAAAAAAQCEAAAgAAAAhAAAAA=</HashCode>
+      <FileName>DataLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application">
+    <Position X="18.75" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAABAABAAAIAgAAAAAAAACBAAAgQAAAAAAAAA=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

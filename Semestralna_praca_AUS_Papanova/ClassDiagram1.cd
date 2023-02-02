@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Application">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAABAABAAAIAgAAAAAAAACBAAAgQAAAAAAAAA=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filtration" Collapsed="true">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filtration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataLoader">
+    <Position X="1.25" Y="0.75" Width="2" />
+    <NestedTypes>
+      <Typedef Name="DataLoader::table" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DataLoader.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAiAAAAAAAAAAAAIAAAAAAAAAQCEAAAgAAAAhAAAAA=</HashCode>
+      <FileName>DataLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
